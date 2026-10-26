@@ -1,0 +1,4 @@
+# Runtime: Python 3.11+ standard library only — no third-party packages.
+# Live execution (optional, gated, see src/ds_harvest/live.py) would use
+# Polymarket's unified SDK; it is intentionally NOT a default dependency:
+#   pip install polymarket-client

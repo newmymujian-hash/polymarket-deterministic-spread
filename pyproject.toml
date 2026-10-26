@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ds-harvest"
+version = "0.1.0"
+description = "Deterministic Spread & Tail-End Harvesting Strategy for Polymarket (paper-first scanner)"
+requires-python = ">=3.11"
+license = { text = "Private — all rights reserved" }
+
+[project.scripts]
+ds-harvest = "ds_harvest.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,27 @@
+{
+ "risk": {
+  "arb_alloc_pct": 0.4,
+  "arb_max_days": 30.0,
+  "daily_loss_limit_pct": 0.02,
+  "kelly_multiplier": 0.5,
+  "max_depth_fraction": 0.2,
+  "max_event_exposure_pct": 0.1,
+  "min_arb_annualized": 0.0,
+  "min_edge_after_fees": 0.005,
+  "per_trade_cap_pct": 0.05,
+  "reserve_pct": 0.1,
+  "tail_alloc_pct": 0.5,
+  "total_capital": 10000.0
+ },
+ "scan": {
+  "arb_max_days": 30.0,
+  "events_limit": 100,
+  "markets_limit": 500,
+  "tail_assumed_prob": 0.995,
+  "tail_max_hours": 24.0,
+  "tail_min_depth_usd": 100.0,
+  "tail_min_hours": 1.0,
+  "tail_price_cap": 0.995,
+  "tail_price_floor": 0.97
+ }
+}
